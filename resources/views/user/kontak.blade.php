@@ -38,14 +38,14 @@
             </div>
             <div class="form-group row">
                 <div class="col-md-12">
-                <label for="c_subject" class="text-black">Subject </label>
+                <label for="c_subject" class="text-black">Subject <span class="text-danger">*</span></label>
                 <input type="text" class="form-control" id="c_subject" name="c_subject" required>
                 </div>
             </div>
 
             <div class="form-group row">
                 <div class="col-md-12">
-                <label for="c_message" class="text-black">Catatan </label>
+                <label for="c_message" class="text-black">Catatan <span class="text-danger">*</span></label>
                 <textarea name="c_message" id="c_message" cols="30" rows="7" class="form-control" required></textarea>
                 </div>
             </div>
